@@ -39,25 +39,25 @@ cd todo-app
 
 ---
 
-setup backend
+# 2. setup backend
 cd server
 npm install
 
 ---
 
-Create a .env file inside server/:
+# 3. Create a .env file inside server/:
 
 MONGO_URI=your_mongodb_connection_string
 JWT_SECRET=your_secret_key
 
 ---
 
-Run the server:
+# 4. Run the server:
 npm run dev
 
 ---
 
-Setup frontend
+# 5. Setup frontend
 
 cd ../client
 npm install
